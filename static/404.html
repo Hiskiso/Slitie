@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+<style>
+ 
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+
+
+a {
+    background-color: transparent
+}
+
+
+
+        body {
+    background: #000;
+      /* background-image:url("fon.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%; */
+    color: #fff;
+    letter-spacing: 2pt;
+    text-transform: uppercase;
+    font-family: 'Trade Winds';
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    font-family: 'Trade Winds';
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    text-indent: 10px
+}
+
+
+a {
+    animation: change-color 3s ease infinite;
+    text-decoration: none
+}
+
+a:hover {
+    animation: change-color 1s ease infinite
+}
+
+@keyframes change-color {
+    0% {
+        color: #fff
+    }
+
+    25% {
+        color: #943855
+    }
+
+    50% {
+        color: #e16363
+    }
+
+    75% {
+        color: #ffd692
+    }
+
+    100% {
+        color: #fff
+    }
+}
+
+#wrapper>h1 {
+    margin: 0;
+    font-size: 300%;
+    text-indent: 10px;
+    line-break: loose;
+    text-align: center;
+}
+
+#wrapper>h2 {
+    margin: 0;
+    font-size: 50%;
+    text-indent: 10px;
+    line-break: loose;
+    text-align: center;
+}
+
+.designed{
+    font-size: 10%;
+}
+
+#wrapper>div {
+    text-align: center;
+    font-size: 100%
+}
+.video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 74.125874%;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    overflow: hidden;
+    background: rgba(7, 9, 21, .5);
+    filter: brightness(62.5%);
+    top: 50%;
+    left: 50%
+}
+
+
+</style>
+</head>
+<body> <div id="wrapper">
+ <h1>Что‽</h1>
+ <h2><a href="index.html">Назад</a></h2>
+
+<video class="video" autoplay loop muted src="./src/404.mp4"></video>
+</div>
+  
+  
+</body>
+</html>
