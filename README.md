@@ -1,4 +1,4 @@
-# nuxt-app
+# Slitie
 
 ## Build Setup
 
