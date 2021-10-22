@@ -2,6 +2,7 @@
 
 > My personal site
 
+  ##TODO поменять пути
 ## Build Setup
 
 ```bash
