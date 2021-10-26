@@ -25,7 +25,7 @@
       <h1>
         <a
           target="_blank"
-          href="https://vk.com/localhost_8080"
+          href="https://vk.com/au_nv"
         ><svg
           id="Capa_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
           </g></svg></a>
         <a
           target="_blank"
-          href="https://t.me/Zaeba1sa"
+          href="https://t.me/spohe"
         ><svg
           id="Bold"
           xmlns="http://www.w3.org/2000/svg"
@@ -103,6 +103,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data () {
