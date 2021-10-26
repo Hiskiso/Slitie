@@ -1,8 +1,6 @@
 # [ Slitie ](https://slitie.web.app/)
 
 > My personal site
-
-  ##TODO поменять пути
 ## Build Setup
 
 ```bash
